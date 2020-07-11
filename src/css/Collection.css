@@ -1,0 +1,308 @@
+@charset "utf-8";
+@import url("init.css");
+@import url("Conturibution.css");
+#Collection{
+	width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.collection-left{
+	background-color: white;
+	height: 500px;
+	border-right: 1px solid #eee;
+}
+.channel-show{
+	display: block;
+	padding-top: 15px;
+	cursor: pointer;
+	margin-left: 15px;
+}
+.channel-show div{
+	display: flex;
+	justify-content: space-between;
+	width: 150px;
+}
+.channel-show div>h4{
+	font-size: 14px;
+	font-weight: 400;
+	color: #99a2aa;
+}
+.chanicon{
+	transform: rotate(0);
+	transform-origin: 8px 9px;
+	transition-duration: .3s;
+}
+#default-center{
+	background-color: white;
+}
+.chanicon-arrow{
+	background: url('https://s1.hdslb.com/bfs/static/jinkela/space/asserts/icons.png') no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 20px;
+	background-position: -1305px -215px;
+}
+.before{
+	background: url('https://s1.hdslb.com/bfs/static/jinkela/space/asserts/icons.png') no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 20px;
+	background-position: -1305px -215px;
+	transform: rotate(-180deg);
+	transform-origin: 8px 9px;
+	transition-duration: .3s;
+}
+.collection-left ul{
+	margin-top: 15px;
+}
+.collection-enter-active{
+	background-color: #00A0D8;
+	color: white;
+}
+.collection-enter-active span{
+	color: white;
+}
+.left-CollectionName{
+	width: 140px;
+	display: flex;
+	justify-content: flex-start;
+	padding: 0 20px;
+}
+.CollectionName{
+	display: inline-block;
+	text-align: left;
+	flex-grow: 2;
+}
+#Collection-right{
+	width: 928px;
+	background-color: white;
+}
+#default{
+	background-color: white
+}
+.default-header{
+	display: block;
+}
+#default-absolte{
+	display: flex;
+	justify-content: flex-start;
+	width: 880px;
+	height: 160px;
+	margin: 15px 0 0 20px;
+	border-bottom: 1px solid #eee;
+}
+.deficon{
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+.deficon-favlist{
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAspJREFUWAntWD2IGlEQds0PSfSwjQSJRKKCNoGA2JhrAilMCiEY0gdiKls7bSy00UasQuQw4KU70OZSiSAikkYRE9SLihoFf+AgGohmJrkDWXaeq5y3G7iB2bdv3sz7vp03zspyin+igeEpqB5UDSqlnAL4Cegx6JSDC5J7C3obVE7yE8jEr8HlOeg9OTE743IDxj0lXPRnBjkOeiQodc2xEqNGgrIW2RO8vm36yuXya4vF8lBMfKVS+Wa1Wj+K8eX7XFYGl3xgsXPsg36xzlL4XVYGt362jWpwk7qjGG1aj1JkcKN6vKpB6qjF2qU4YrHc/vqRPxK73a5JpVIvdTrdLv/pLNvtdtftdn/K5/NTIeZkBsPh8JMdk0M+HGIA1r4QObSRBFUq1S0q6KLtarWaxCIJDgYDwZQLkfP7/YdOpzNWr9e/C62vs/V6vQnlQxKE2iCD+JsFAoFqOp0eGo3GD/F4PPMLhO/Dmnc6HRKLJNhoNMggCmyxWCg8Hk/R4XDEarVag/Lj25vNJolFEqxWq2QQH4A/LxQKU7PZfBCNRo/m8/mMv86fs7BIgqVSaWuC5wS8Xu8Xl8v1frlcLs5tQmOxWCSxSIKtVgsefv3TCwGu2maz2W+O40gcWJ9BDc5XY1bvyUB0Go1G5JOtbkLdRyKRR5lM5g21jvbxeMzEIN8kGDwcDidarfYu3m8iNptNk0gkXphMpgfr4hCD5cPMYL/fZwbzN1YqlYpYLPY4m82+E0MO47vdLhODmUGxvdDn85mgrUxDodAzg8Fwn0+cNWf1QIxjEhTbC4PB4CsWCdYaqwdiHPOI4ah+sDa/iLV1GEyCuVxukkwmP8Obi2wD25LEHoZ7IwZrj6u//KzsiFljHrGYDXbt818QxG/CcpVTzOCJXNkhNySIX9Pxg7XcBDkd40d07HFl0D3QO6A3QaUULLmvoIeg0z8kQfSabrii0gAAAABJRU5ErkJggg==') no-repeat;
+	background-size: 100%;
+	width: 20px;
+	height: 20px;
+}
+#default-box-img{
+	display: block;
+	position: relative;
+	cursor: pointer;
+	width: 188px;
+	height: 118px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.default-img{
+	width: 188px;
+	height: 118px;
+}
+#default-text-content{
+	margin-top: 15px;
+	padding-left: 15px;
+}
+#default-text-content p{
+	font-size: 14px;
+	color: #000000;
+	font-weight: 400;
+	transition: all 0.2s;
+	margin-bottom: 10px;
+}
+#default-text-content p:hover{
+	color: #00A0D8;
+}
+#default-text-content span{
+	display: inline-block;
+	margin-top: 10px;
+	color: #909090;
+	margin-right: 15px;
+}
+.defaultIcon{
+	display: block;
+	border: 1px solid #eee;
+	background-color: #00A0D8;
+	font-size: 14px;
+	color: white;
+	width: 120px;
+	height: 30px;
+	margin-top: 10px;
+}
+#center-operation{
+	display: flex;
+	justify-content: flex-end;
+	background-color: white;
+}
+.defBox{
+	width: 100px;
+	text-align: center;
+	display: block;
+	line-height: 50px;
+}
+.defBox:hover{
+	color: #00A0D8;
+}
+.defauicon{
+	vertical-align: middle;
+}
+.center-item{
+	display: flex;
+	justify-content: space-between;
+}
+#center-search{
+	height: 28px;
+	margin-top: 10px;
+	margin-right: 15px;
+	border: 1px solid #ccd0d7;
+	border-radius: 14px;
+	transition: border-color 0.2s ease; 
+	float: left;
+	line-height: 30px;
+	color: #222;
+}
+.Default-arrow{
+	vertical-align: middle;
+}
+.search-function{
+	display: inline-block;
+	width: 57px;
+	line-height: 28px;
+	margin-left: 15px;
+	font-size: 12px;
+	color: #6d757a;
+	vertical-align: top;
+	text-align: center;
+	cursor: pointer;
+	border-right: 1px solid #ccd0d7;
+}
+.search-input{
+	position: relative;
+	display: inline-block;
+	width: 148px;
+	height: 28px;
+	margin: 0 9px 0 11px;
+	vertical-align: top;
+}
+.search-input input{
+	width: 120px;
+	height: 20px;
+	border: 0;
+}
+.seaicon{
+	background: url('https://s1.hdslb.com/bfs/static/jinkela/space/asserts/icons.png') no-repeat;
+}
+.icon-search{
+	background-position: -1111px -82px;
+	cursor: pointer;
+	width: 18px;
+	height: 28px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.favlist-item{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.favlist-item li{
+	margin-right: 15px;
+}
+
+.fav-enter,
+.fav-leave-to{
+	opacity: 0;
+}
+
+.fav-enter-active,
+.fav-leave-active{
+	transition: all 0.5s;
+}
+.fav-enter-to,
+.fav-leave{
+	opacity: 1;
+}
+
+.favlist-image{
+	width: 160px;
+	height: 100px;
+	position: relative;
+	display: block;
+}
+.favlist-image img{
+	width: 160px;
+	height: 100px;
+	display: block;
+	border-radius: 5px;
+}
+.video-time{
+	display: block;
+	position: absolute;
+	padding: 0 5px;
+	bottom: 2px;
+	right: 1px;
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+}
+#videoInfo{
+	background-color: rgba(0,0,0,0.3);
+	width: 160px;
+	height: 95px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 5px;
+	border-radius: 5px;
+	z-index: 5;
+}
+.favCollection{
+	width: 170px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5px;
+}
+.favData{
+	line-height: 35px;
+}
+#videoInfo p{
+	color: white;
+	margin: 5px 0 0 10px;
+}
+.favTitle{
+	font-size: 12px;
+	margin-top: 5px;
+	line-height: 20px;
+	color: #000000;
+}
+.demore{
+	color: #a5a5a5;
+}

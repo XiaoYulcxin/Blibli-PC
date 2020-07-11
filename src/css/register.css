@@ -1,0 +1,122 @@
+.register{
+	background-color: white;
+}
+.r_div {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.r_div .line {
+    display: inline-block;
+    width: 440px;
+    border-top: 1px solid #ccc;
+    margin: 0 20px;
+}
+
+.r_div .txt {
+    color: black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.register .content {
+    width: 420px;
+    margin: 0px auto;
+}
+
+.register .content input {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #dcdfe6;
+}
+
+.register .content .china, .register .content .gain {
+    width: 288px;
+}
+
+.register .content .china, .register .content .gain_span {
+    border-radius: 0 6px 6px 0;
+}
+
+.register .content .gain, .register .content .china_span {
+    border-radius: 6px 0 0 6px;
+}
+
+.register .content .china_span {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.register .content .china_span:hover {
+    cursor: pointer;
+}
+.register .content .china_span .arrows {
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+.register .content .gain_span {
+    color: #fff;
+    background-color: #00a1d6;
+    text-align: center;
+}
+
+.register .content .gain_span:hover {
+    cursor: pointer;
+    background-color: #4cbde5;
+    color: #fff;
+}
+
+.register .content span {
+    display: inline-block;
+    width: 130px;
+    height: 38px;
+    position: relative;
+    top: 2px;
+    border: 1px solid #dcdfe6;
+    line-height: 38px;
+    font-size: 14px;
+    color: #ab9399;
+}
+
+.register .content p {
+    font-size: 12px;
+    margin: 8px 0;
+}
+
+.register .content p a {
+    color: #00b5e7;
+}
+
+.register .content .check {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    margin-top: 0;
+    margin-right: 4px;
+}
+
+.register .content .sub {
+    margin-top: 0;
+    color: #fff;
+    background-color: #33b4de;
+}
+
+.register .content .sub:hover {
+    cursor: pointer;
+    background-color: #4cbde5;
+    color: #fff;
+}
+
+.register .content .login {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-bottom: 80px;
+}

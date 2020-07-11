@@ -1,0 +1,175 @@
+@charset "utf-8";
+.login{
+	background-color: white;
+}
+.r_div {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.r_div .line {
+    display: inline-block;
+    width: 440px;
+    border-top: 1px solid #ccc;
+    margin: 0 20px;
+}
+
+.r_div .txt {
+    color: black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.login .login_content {
+    width: 980px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login .login_left, .login .login_right {
+    width: 490px;
+    border-right: 1px solid #cccccc;
+}
+
+.login .login_right {
+    border: #00a0d8;
+}
+
+.login .login_left .login_code {
+    width: 140px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.login .login_left img {
+    width: 120px;
+    height: 120px;
+}
+
+.login .login_left p {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login .login_left i {
+    font-style: normal;
+}
+
+.login .login_left i .ewm {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.login .login_left i a {
+    color: #00b5e7;
+}
+
+.login .login_right a {
+    display: inline-block;
+    color: black;
+    margin-left: 30px;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.login .login_right .me, .login .login_right .login_span a {
+    font-size: 12px;
+}
+
+.login .login_right a span {
+    color: #c9bbc1;
+}
+
+.login .login_right .login_span {
+    float: right;
+    margin-right: 20px;
+}
+
+.login .login_right .login_span a {
+    color: #00a1d6;
+    margin-left: 10px;
+}
+
+.login .login_right a.router-link-exact-active {
+    color: #02a7de;
+}
+
+.login .login_right .l_r {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login .login_right .l_r input {
+    width: 186px;
+    height: 38px;
+    outline: none;
+    border: 0;
+}
+
+.login .login_right .l_r a {
+    padding: 0;
+}
+
+.login .login_right .l_r .login {
+    background-color: #00a7de;
+    color: #fff;
+}
+
+.login .login_right .l_r .register {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #cccccc;
+}
+
+.login .login_right .l_r .login:hover {
+    cursor: pointer;
+    background-color: #4cbde5;
+    color: #fff;
+}
+
+.login .login_right .l_r .register:hover {
+    cursor: pointer;
+    background-color: #f7f7f7;
+    color: black;
+}
+
+.login .login_right p a {
+    color: #717171;
+    font-size: 12px;
+}
+
+.login .login_right a img {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: 10px;
+}
+
+.login .login_right .me input {
+    margin-right: 4px;
+    position: relative;
+    top: 2px;
+}
+
+.login .login_right .me span {
+    margin-left: 10px;
+}
+
+.login .login_p {
+    text-align: center;
+    color: #99aac7;
+    font-size: 12px;
+    margin: 20px auto;
+}
+
+.login .login_p a {
+    color: #00a1d6;
+}
+

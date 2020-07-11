@@ -1,0 +1,484 @@
+@charset "utf-8";
+
+#contentindex {
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#indexLeft {
+	width: 742px;
+	background: white;
+	border-radius: 4px;
+	padding-top: 15px;
+}
+
+.clearfix {
+	display: block;
+}
+
+#LoginCollection {
+	padding: 15px 20px;
+	
+}
+
+#ShowCollection{
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.CollectionImage {
+	width: 280px;
+	height: 175px;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.CollectionImage img {
+	width: 280px;
+	height: 175px;
+	border-radius: 4px;
+}
+
+.time-video {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	font-size: 13px;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 5px 0 0 0;
+	padding: 0 6px;
+	line-height: 20px;
+}
+
+#i-info {
+	position: relative;
+	margin-left: 300px;
+	height: 175px;
+	text-align: left;
+}
+
+.i-info-title {
+	display: block;
+	margin-bottom: 15px;
+	width: 100%;
+	font-size: 14px;
+}
+
+.i-info-data, .i-release-meta{
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 13px;
+}
+
+.i-info-meta{
+	color: #6d757a;
+	margin-bottom: 15px;
+}
+
+.i-info-icon{
+	background: url('https://s1.hdslb.com/bfs/static/jinkela/space/asserts/icons.png') no-repeat;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+}
+
+.i-info-play{
+	background-position: -1306px -346px;
+}
+
+.i-info-danmu{
+	background-position: -1306px -410px;
+}
+
+.i-info-time{
+	background-position: -1306px -474px;
+}
+.i-info-epsc{
+	color: #99a2aa;
+	margin-bottom: 10px;
+	line-height: 20px;
+	font-size: 13px;
+}
+.i-info-reason{
+	color: #f25d8e;
+	height: 20px;
+	margin-bottom: 14px;
+	font-size: 13px;
+}
+
+#section-video, #section-special{
+	position: relative;
+	padding: 0px 20px;
+	margin-bottom: 17px;
+}
+
+#section-video-border{
+	border-bottom: 1px solid #eee;
+}
+
+.section-title{
+	position: relative;
+	color: #000;
+	padding: 0 0 5px;
+}
+
+.section-video-name{
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	vertical-align: middle;
+}
+.section-more{
+	position: absolute;
+	right: 0;
+	font-size: 12px;
+	line-height: 22px;
+	padding: 0 19px 0 10px;
+	color: #6d757a;
+	border: 1px solid #b8c0cc;
+	border-radius: 4px;
+	background: url('https://s1.hdslb.com/bfs/static/jinkela/space/asserts/icons.png') no-repeat;
+	background-position: -309px -405px;
+}
+
+#contentindex .count{
+	background: #f7f7f7;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	color: #777;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 18px;
+	height: 20px;
+	margin-left: 11px;
+	padding: 0 5px;
+	position: relative;
+	vertical-align: middle;
+}
+
+.count::before{
+	background: url('https://s1.hdslb.com/bfs/static/jinkela/space/asserts/icons.png') no-repeat;
+	position: absolute;
+	background-position: -215px -340px;
+	content: '';
+	display: block;
+	left: -7px;
+	top: -3px;
+	height: 22px;
+	width: 10px;
+}
+
+.be-tab{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.be-tab-inner{
+	display: flex;
+	line-height: 30px;
+	justify-content: center;
+}
+
+.inner{
+	display: block;
+	width: 70px;
+	font-size: 13px;
+	color: black;
+	font-weight: 400;
+}
+
+.be-tab-cursor{
+	transition: all 0.2s;
+	position: absolute;
+	transform: translateX(0px);
+	width: 50px;
+	bottom: 0;
+	height: 0;
+	border-bottom: 1px solid #00A1D6;
+}
+
+.be-tab-cursor::after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	transform: translateX(-50%);
+	border-bottom: 3px solid #00A1D6;
+	border-top: 0;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+}
+
+.inner-active{
+	transition: all 0.2s;
+	color: #00A1D6;
+}
+
+/* TA的专栏样式 */
+#special-title, #special-title-stu{
+	color: #000000;
+	font-weight: 400;
+	height: 40px;
+	font-size: 17px;
+	
+}
+#special-title-stu{
+	padding-top: 20px;
+	position: relative;
+}
+
+#special-title-stu:nth-of-type(1){
+	border-bottom: 1px solid #eee;
+}
+
+#special-title-stu:nth-of-type(3){
+	border-top: 1px solid #eee;
+}
+
+/* 稍后在看 */
+.section-watch{
+	position: absolute;
+	right: 10%;
+	font-size: 12px;
+	line-height: 22px;
+	padding: 0 9px 0 25px;
+	color: #6d757a;
+	border: 1px solid #b8c0cc;
+	border-radius: 4px;
+	background: url('https://s1.hdslb.com/bfs/static/jinkela/space/asserts/icons.png') no-repeat;
+	background-position: -402px -1173px;
+}
+
+#special-content, #special-collection{
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+	padding: 10px 15px;
+}
+
+#special-content:nth-of-type(4){
+	border-bottom: 1px solid #eee;
+}
+#special-content img{
+	width: 160px;
+	height: 100px;
+	border-radius: 5px;
+}
+.special-inner{
+	margin-left: 15px;
+}
+.special-inner p{
+	font-size: 13px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.special-inner p:hover{
+	color: #00A1D6;
+}
+.inner-sign{
+	color: black;
+	font-size: 12px;
+}
+
+.i-release-data{
+	color: #6d757a;
+	margin-right: 17px;
+}
+
+.i-release-data:nth-of-type(1){
+	float: right;
+}
+
+/* TA的视频-最新发布 */
+
+.releaseImage{
+	display: inline-block;
+	position: relative;
+	width: 160px;
+	height: 100px;
+	transition: all 0.2s;
+}
+
+
+#scrollbackground{
+	width: 160px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.2s;
+}
+
+
+.releaseImage img{
+	width: 160px;
+	height: 100px;
+	border-radius: 5px;
+}
+.release-item{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.release-video-item{
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+.release-item-title{
+	transition: all 0.5s;
+	font-size: 13px;
+	cursor: pointer;
+}
+.release-item-title:hover{
+	color: #00A1D6;
+}
+
+/* TA的收藏夹页面 */
+.s-content{
+	display: flex;
+	justify-content: flex-start;
+}
+.s-content li{
+	margin-left: 14px;
+}
+.content-a-data{
+	display: inline-block;
+	position: relative;
+}
+.s-content-item img{
+	width: 100%;
+	height: 160px;
+}
+
+.scCount{
+	min-width: 12px;
+	border-radius: 9px;
+	background: rgba(0, 0, 0,.5);
+	padding: 0 9px;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+#special-collection img{
+	border-radius: 5px;
+}
+.count-photo{
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	color: white;
+	font-size: 13px;
+	background-color: rgba(0, 0, 0, .3);
+	border-radius: 5px;
+	padding: 0 6px;
+	line-height: 20px;
+}
+.i-info-watch{
+	width: 15px;
+	height: 13px;
+	background-position: -345px -281px;
+}
+.i-info-good{
+	width: 15px;
+	height: 13px;
+	background-position: -472px -282px;
+}
+
+/* index右侧内容样式 */
+#indexRight{
+	width: 340px;
+}
+
+#Right-organize, #Right-affiche, #Right-live{
+	padding: 15px 20px 18px;
+	background-color: white;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+#Right-organize p{
+	font-size: 13px;
+}
+/* 认证图标 */
+.organize-icon{
+	display: inline-block;
+	width: 21px;
+	height: 23px;
+	vertical-align: bottom;
+	background: url('https://s1.hdslb.com/bfs/static/jinkela/space/asserts/user-auth.png') no-repeat;
+	background-position: -1px -50px;
+	margin-right: 15px;
+}
+/* 公告标题h4和直播间标题 */
+#Right-affiche h4, #Right-live header>h4{
+	color: black;
+	font-weight: 500;
+	font-size: 14px;
+	height: 35px;
+}
+#Right-affiche h4{
+	border-bottom: 1px solid #eee;
+}
+/* 公告内容 */
+#Right-affiche p{
+	font-size: 13px;
+	margin-top: 15px;
+}
+/* 直播间内容 */
+#Right-live header{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+#Right-live header>h4{
+	line-height: 26px;
+}
+.btn-attention{
+	width: 80px;
+	line-height: 24px;
+	color: #ff85ad;
+	border-radius: 4px 0 0 4px;
+	font-size: 12px;
+	background-color: white;
+	border: 1px solid #FF85AD;
+}
+.signCount{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 12px;
+	color: #919191;
+	border-right: 1px solid #dae0e9;
+	border-bottom: 1px solid #dae0e9;
+	border-top: 1px solid #dae0e9;
+	border-radius: 0 4px 4px 0;
+	line-height: 26px;
+	min-width: 50px;
+}
+#Right-live p{
+	padding: 10px 5px;
+	font-size: 12px;
+	text-align: center;
+	color: #777777;
+}
+.a-push{
+	display: block;
+	font-size: 13px;
+	color: #00A1D6;
+	margin-top: 5px;
+}

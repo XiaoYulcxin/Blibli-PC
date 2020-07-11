@@ -1,0 +1,70 @@
+.note_login {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.note_login input {
+    width: 280px;
+    height: 40px;
+    border: 1px solid #a3a0a0;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.note_login span {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #a3a0a0;
+    line-height: 40px;
+}
+
+.note_login .china_span, .note_login .gain {
+    border-radius: 4px 0 0 4px;
+}
+
+.note_login .china_span {
+    padding: 0 14px;
+    color: #909399;
+    box-sizing: border-box;
+    position: relative;
+    top: 2px;
+}
+
+.note_login .china_span:hover {
+    cursor: pointer;
+}
+
+.note_login .china_span .arrows {
+    float: right;
+    position: relative;
+    top: 12px;
+}
+
+.note_login span {
+    display: inline-block;
+    width: 130px;
+    height: 42px;
+    border: 1px solid #a3a0a0;
+    line-height: 40px;
+    position: relative;
+    top: 2px;
+}
+
+.note_login .gain_span, .note_login .china {
+    border-radius: 0 4px 4px 0;
+}
+
+.note_login .gain_span {
+    color: #fff;
+    background-color: #2fb3dd;
+    text-align: center;
+}
+
+.note_login .gain_span:hover {
+    cursor: pointer;
+    background-color: #4cbde5;
+    color: #fff;
+}
